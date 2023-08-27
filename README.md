@@ -7,3 +7,8 @@
 - Non-Generic Repository
 - Service
 - TDD
+- Code First Database
+- Postgresql
+
+# Visual Studio
+Open the solution file projectname.sln and build/run.
