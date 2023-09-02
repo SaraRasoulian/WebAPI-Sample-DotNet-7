@@ -1,6 +1,6 @@
 # ASP.NETCore Web API Sample
 
-This repository contains a sample project showcasing the implementation of an ASP.NET Core Web API (.NET 7). The project follows best practices for clean architecture, utilizes Entity Framework for data access, and employs various design patterns to ensure maintainability and scalability.
+This repository contains a sample project showcasing the implementation of an ASP.NET Core Web API (.NET 7).
 
 # Features & Technologies
 - ASP.NET Core Web API
