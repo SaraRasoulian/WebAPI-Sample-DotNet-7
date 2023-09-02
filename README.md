@@ -16,7 +16,3 @@ The project uses PostgreSQL as the database engine. The database schema is gener
 
 # Contributions
 Contributions are welcomed! If you identify areas for improvement, please feel free to raise an issue or submit a pull request.
-
-# License
-This project is licensed under the MIT License.
-
