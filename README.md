@@ -17,8 +17,11 @@ This repository contains a sample project showcasing the implementation of an AS
 The project uses PostgreSQL as the database engine. The database schema is generated using the Code-First approach through Entity Framework migrations. Make sure to update the connection string in the 
  _appsettings.json_ file before running the migrations.
 
-# Visual Studio
-Open the solution file projectname.sln and build/run.
+# How to use
+- Open the solution file Sample.sln in Visual Studio
+- update the connection string in the _appsettings.json_ file
+- run command update-database
+- build/run
 
 # Contributions 🤝
 Contributions are welcomed! If you identify areas for improvement, please feel free to raise an issue or submit a pull request.
