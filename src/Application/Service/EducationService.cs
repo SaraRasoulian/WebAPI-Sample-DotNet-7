@@ -1,5 +1,6 @@
-﻿using Application.DTOs;
+﻿using Application.Dtos;
 using Application.Interfaces;
+using Application.Service.Interfaces;
 using Domain.Entities;
 using Mapster;
 
