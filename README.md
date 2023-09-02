@@ -1,13 +1,13 @@
 # ASP.NETCore Web API Sample
 
-This repository contains a sample project showcasing the implementation of an ASP.NET Core Web API (.NET 7).
+This repository contains a sample project showcasing the implementation of an ASP.NET Core Web API (.NET 7) project.
 
 # Features & Technologies
 - ASP.NET Core Web API
 - Entity Framework
 - Clean Architecture
-- Unit Of Work
-- Non-Generic Repository-Service
+- Unit Of Work Pattern
+- Repository Service Pattern
 - TDD
 
 # Database
