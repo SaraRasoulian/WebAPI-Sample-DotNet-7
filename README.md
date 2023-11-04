@@ -4,7 +4,7 @@ This repository is a sample project showcasing the implementation of an ASP.NET 
 
 ## Features & Technologies
 - ASP.NET Core Web API
-- Entity Framework
+- Entity Framework Core
 - Clean Architecture
 - Unit Of Work Pattern
 - Repository Service Pattern
