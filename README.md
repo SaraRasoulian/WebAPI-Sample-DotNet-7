@@ -1,6 +1,6 @@
 ## ASP.NETCore Web API Sample
 
-This repository is a sample project showcasing the implementation of an ASP.NET Core Web API (.NET 7) project.
+This repository is a sample ASP.NET Core Web API (.NET 7) project.
 
 ## Features & Technologies
 - ASP.NET Core Web API
