@@ -50,6 +50,15 @@ namespace Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Educations");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("c92ea179-dd5c-46ca-b7b5-b44a191b974c"),
+                            Degree = "Bachelor's degree",
+                            FieldOfStudy = "Software engineering",
+                            School = "Sample university"
+                        });
                 });
 #pragma warning restore 612, 618
         }

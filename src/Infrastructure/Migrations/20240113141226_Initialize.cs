@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class Init : Migration
+    public partial class Initialize : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -25,6 +25,11 @@ namespace Infrastructure.Migrations
                 {
                     table.PrimaryKey("PK_Educations", x => x.Id);
                 });
+
+            migrationBuilder.InsertData(
+                table: "Educations",
+                columns: new[] { "Id", "Degree", "Description", "FieldOfStudy", "School" },
+                values: new object[] { new Guid("c92ea179-dd5c-46ca-b7b5-b44a191b974c"), "Bachelor's degree", null, "Software engineering", "Sample university" });
         }
 
         /// <inheritdoc />
