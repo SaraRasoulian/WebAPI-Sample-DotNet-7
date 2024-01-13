@@ -9,6 +9,7 @@ This repository is a sample ASP.NET Core Web API (.NET 7) project.
 - Unit Of Work Pattern
 - Repository Service Pattern
 - TDD
+- PostgreSQL
 - Docker
 
 ## Get started
