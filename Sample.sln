@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{664D406C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E2DA20AA-28D1-455C-BF50-C49A8F831633}"
 	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
 		.gitignore = .gitignore
+		Dockerfile = Dockerfile
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -21,9 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Infra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "src\WebApi\WebApi.csproj", "{E7A97BCC-0CC2-4947-9F43-646E5243C4CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Tests", "tests\Application.Tests\Application.Tests.csproj", "{9B3DDC83-BC3A-4F39-811D-7A41D6291780}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Tests", "tests\Application.Tests\Application.Tests.csproj", "{9B3DDC83-BC3A-4F39-811D-7A41D6291780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Tests", "tests\WebApi.Tests\WebApi.Tests.csproj", "{46C453F6-6E88-4A69-AC70-1E9416A7C870}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Tests", "tests\WebApi.Tests\WebApi.Tests.csproj", "{46C453F6-6E88-4A69-AC70-1E9416A7C870}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
