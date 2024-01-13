@@ -30,11 +30,11 @@ the application will be running and listening at `http://localhost:5000`
 
 #### 3. Run the migrations
 
-open the Sample.sln file in visual studio, then in package manager console tab, run:
+open Sample.sln file in visual studio, then in package manager console tab, run:
 
 `update-database`
 
-this command will generate the database schema in the postgres container
+this command will generate the database schema in the postgres container.
 
 ## Contributions
 Contributions are welcomed! If you identify areas for improvement, please feel free to raise an issue or submit a pull request.
