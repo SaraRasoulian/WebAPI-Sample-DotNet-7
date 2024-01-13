@@ -13,6 +13,17 @@ namespace Infrastructure.DbContexts
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+            // Seed
+            modelBuilder.Entity<Education>().HasData(
+                new Education
+                {
+                    Id = Guid.NewGuid(),
+                    Degree = "Bachelor's degree",
+                    FieldOfStudy = "Software engineering",
+                    School = "Sample university"
+                }
+                );
         }
     }
 }
