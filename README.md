@@ -17,7 +17,7 @@ This repository is a sample ASP.NET Core Web API (.NET 7) project.
 #### 1. Clone the repository
 
 ```
-git clone https://github.com/SaraRasoulian/ASP.NETCore-WebAPI-Sample.git
+git clone https://github.com/SaraRasoulian/WebAPI-Sample.git
 ```
 #### 2. Run the app with Docker
 
