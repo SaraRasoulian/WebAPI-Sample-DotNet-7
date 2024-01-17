@@ -23,11 +23,13 @@ This repository is a sample ASP.NET Core Web API (.NET 7) project.
 
 make sure [Docker](https://docs.docker.com/get-docker/) is installed on your machine.
 
-to start local development, run:
+docker compose in this project includes: web api application, postgres and pgadmin4.
+
+run the following command in project directory:
 
 `docker compose up`
 
-the application will be running and listening at `http://localhost:5000`
+the web api application will be running and listening at `http://localhost:5000`
 
 #### 3. Run the migrations
 
