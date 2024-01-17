@@ -16,9 +16,9 @@ This repository is a sample ASP.NET Core Web API (.NET 7) project.
 
 #### 1. Clone the repository
 
-`git clone https://github.com/SaraRasoulian/ASP.NETCore-WebAPI-Sample.git`
-
-
+```
+git clone https://github.com/SaraRasoulian/ASP.NETCore-WebAPI-Sample.git
+```
 #### 2. Run the app with Docker
 
 make sure [Docker](https://docs.docker.com/get-docker/) is installed on your machine.
@@ -27,7 +27,9 @@ docker compose in this project includes: web api application, postgres and pgadm
 
 run the following command in project directory:
 
-`docker compose up`
+```
+docker-compose up -d # build images, create and run containers in background
+```
 
 the web api application will be running and listening at `http://localhost:5000`
 
@@ -35,7 +37,9 @@ the web api application will be running and listening at `http://localhost:5000`
 
 open Sample.sln file in visual studio, then in package manager console tab, run:
 
-`update-database`
+```
+update-database
+```
 
 this command will generate the database schema in __Postgres Container__.
 
