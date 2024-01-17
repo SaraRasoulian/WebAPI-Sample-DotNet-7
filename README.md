@@ -35,7 +35,7 @@ open Sample.sln file in visual studio, then in package manager console tab, run:
 
 `update-database`
 
-this command will generate the database schema in the __Postgres Container__.
+this command will generate the database schema in __Postgres Container__.
 
 ## Contributions
 Contributions are welcomed! If you identify areas for improvement, please feel free to raise an issue or submit a pull request.
