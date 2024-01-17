@@ -26,16 +26,29 @@ Make sure [docker](https://docs.docker.com/get-docker/) is installed on your mac
 Run the following command in project directory:
 
 ```
-docker-compose up -d # build images, create and run containers in background
+docker-compose up -d
 ```
 
-Docker compose in this project includes: web api application, postgres and pgadmin4.
+Docker compose in this project includes: web API application, postgres and pgadmin4.
 
-- Web api application will be running and listening at `http://localhost:5000`
+- Web API application will be running and listening at `http://localhost:5000`
 
-- Postgres at `http://localhost:5433`
+- Postgres database will be listening at `http://localhost:5433`
 
-- Pgadmin4 at `http://localhost:8080`
+- PgAdmin4 web interface will be listening at `http://localhost:8080`
+
+
+To apply your modified code, you can add build option:
+
+```
+  docker-compose up -d --build
+```
+
+To stop and remove all containers, use the following command:
+
+```
+  docker-compose down
+```
 
 
 #### 3. Run the migrations
