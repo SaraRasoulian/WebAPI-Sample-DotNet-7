@@ -29,7 +29,7 @@ Run the following command in project directory:
 docker-compose up -d
 ```
 
-Docker compose in this project includes: web API application, postgres and pgadmin4.
+Docker compose in this project includes 3 services: web API application, postgres and pgadmin4.
 
 - Web API application will be running and listening at `http://localhost:5000`
 
